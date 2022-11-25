@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+}
+body{
+    background: rgb(242, 201, 150);
+}
+
+/* .principal{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+} */
+.menu{
+    display: flex;
+    background: rgb(94, 230, 237);
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+   
+}
+.logo{
+    display: flex;  
+    /* background-color: brown; */
+    margin: 0 auto;
+}
+.img{
+    width: 150px;;
+    height: 40px;
+    background: white;
+    margin: 10px auto;
+    
+}
+.menus{
+    display: flex;
+    background-color: blueviolet;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.items{
+    text-align: center;
+    width: 150px;;
+    height: 40px;
+    margin: 10px;
+    line-height: 40px;
+    background: rgb(245, 137, 137);
+    color: aliceblue;
+}
+.container{
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    /* background: rgb(236, 174, 174); */
+    justify-content:center;
+    flex-wrap: wrap;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+h2{
+    text-align: center;
+    line-height: 300px;
+}
+.hijo1{
+    background: red;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 15px;
+}
+.hijo2{
+    background: rgb(219, 216, 43);
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 15px;
+}
+.hijo3{
+    background: rgb(23, 229, 78);
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 15px;
+}
+.hijo4{
+    background: rgb(73, 37, 229);
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 15px;
+}
+.hijo5{
+    background: rgb(250, 15, 223);
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 15px;
+}
+.hijo6{
+    background: rgb(162, 5, 70);
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 15px;
+}
+footer{
+    background:rgb(94, 230, 237);
+    text-align: center;
+}
+p{
+    margin: 20px;
+    padding: 10px;
+    color: aliceblue;
+    font-weight: bold;
+}
